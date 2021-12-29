@@ -1,6 +1,7 @@
 const fs = require('fs');
 
 const libraries = {
+  'react-model': '<a href="https://github.com/byte-fe/react-model">react-model</a> (w/ useModel)',
   'react-redux': '<a href="https://react-redux.js.org">react-redux</a>',
   zustand: '<a href="https://github.com/pmndrs/zustand">zustand</a>',
   'react-tracked': '<a href="https://react-tracked.js.org">react-tracked</a>',

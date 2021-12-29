@@ -14,6 +14,7 @@ const sleep = (ms) => new Promise((r) => {
 jest.setTimeout(20 * 1000);
 
 const names = [
+  'react-model',
   // 'react-state',
   'react-redux',
   'zustand',

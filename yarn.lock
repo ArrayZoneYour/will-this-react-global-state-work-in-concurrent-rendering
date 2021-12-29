@@ -3983,6 +3983,11 @@ ignore@^5.1.4:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.2.0.tgz#6d3bac8fa7fe0d45d9f9be7bac2fc279577e345a"
   integrity sha512-CmxgYGiEPCLhfLnpPp1MoRmifwEIOgjcHXxOBjv7mY96c+eWScsOP9c112ZyLdWHi0FxHjI+4uVhKYp/gcdRmQ==
 
+immer@>=8.0.1:
+  version "9.0.7"
+  resolved "https://registry.npmjs.org/immer/-/immer-9.0.7.tgz#b6156bd7db55db7abc73fd2fdadf4e579a701075"
+  integrity sha512-KGllzpbamZDvOIxnmJ0jI840g7Oikx58lBPWV0hUh7dtAyZpFqqrBZdKka5GlTwMTZ1Tjc/bKKW4VSFAt6BqMA==
+
 immer@^7.0.15:
   version "7.0.15"
   resolved "https://registry.yarnpkg.com/immer/-/immer-7.0.15.tgz#dc3bc6db87401659d2e737c67a21b227c484a4ad"
@@ -5822,6 +5827,13 @@ react-is@^18.0.0-rc.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.0.0-rc.0-next-f2a59df48-20211208.tgz#c50b7b764bf181c5ffe78a091ec56bd5d7303154"
   integrity sha512-241AowbvmjjFzohG6KLOwClqbNc9xEksYPiox+W+hE8RFiNSJ/6YNroYhz5QzLKcI6SluH4tKW3TQUNcr/wzzQ==
 
+react-model@^5.0.0-alpha.0:
+  version "5.0.0-alpha.0"
+  resolved "https://registry.npmjs.org/react-model/-/react-model-5.0.0-alpha.0.tgz#20e42a837f4e303126e9966214ab53e7dd8b75ea"
+  integrity sha512-8yKXTs2lXpAZ8WAvX/1BLw6PyO8NagdqvLg8drOiFCBMLCK4G5zLwGh7YTM8KjMgc4dvFTOqJLStGYReXVLWCg==
+  dependencies:
+    immer ">=8.0.1"
+
 react-redux@^8.0.0-beta.2:
   version "8.0.0-beta.2"
   resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-8.0.0-beta.2.tgz#422b13e2f7f66e5abe80ff98b82b01c79b1c9842"
@@ -6857,7 +6869,7 @@ use-sync-external-store@1.0.0-beta-96ca8d915-20211115:
 
 use-sync-external-store@1.0.0-rc.0:
   version "1.0.0-rc.0"
-  resolved "https://registry.yarnpkg.com/use-sync-external-store/-/use-sync-external-store-1.0.0-rc.0.tgz#0d8fb7cbc31ddfb3ee01225f6b0a700cf59c449b"
+  resolved "https://registry.npmjs.org/use-sync-external-store/-/use-sync-external-store-1.0.0-rc.0.tgz#0d8fb7cbc31ddfb3ee01225f6b0a700cf59c449b"
   integrity sha512-0U9Xlc2QDFzSGMB0DvcJQL0+DIdxDPJC7mnZlYFbl7wrSrPMcs89X5TVkNB6Dzg618m8lZop+U+J6ow3vq9RAQ==
 
 use-sync-external-store@^1.0.0-rc.0:
